@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: rgba(228, 225, 225, 0.9);
+}
+
+fieldset  {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 30 rgba( 0, 0, 0, 0.2), 30 rgba( 0, 0, 0, 0.2);
+}
+
+.titu {
+    padding: none;
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: top;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+    margin-bottom: -30px;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black ; */
+
+
+}
+
+.registro {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 360px;
+    width: 300px;
+    /*     border: 1px solid black ;
+ */
+    margin: auto;
+
+}
+
+.butom {
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+input {
+    display: flex;
+    font-size: 14px;
+    padding: 15px;
+    width: 350px;
+    border-radius: 4px;
+    border: 1px solid rgb(197, 184, 184);
+    margin-top: -10px;
+}
+
+.bt {
+    color: white;
+    padding: 12px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#b1 {
+    background: rgb(3, 201, 135);
+}
+
+#b2 {
+    background: #820ad1;
+}
+
+#b1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+#b2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+legend {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
